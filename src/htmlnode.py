@@ -58,3 +58,18 @@ class LeafNode(HtmlNode):
             return f"<{self.tag}{props_html}>{self.value}</{self.tag}>"
 
 
+class ParentNode(HtmlNode):
+    def __init__(self, tag=None, children=None, props=None):
+        super().__init__(tag, None, children, props)
+        if self.tag == None:
+            raise ValueError("No tag provided")
+        if self.children == None:
+            raise ValueError("No children provided")
+        
+    def to_html(self):
+        html = f"<{self.tag}>"
+        close_tag = f"</{self.tag}>"
+        for child in self.children:
+            html += child.to_html()            
+        return html + close_tag
+
