@@ -67,7 +67,7 @@ class ParentNode(HtmlNode):
             raise ValueError("No children provided")
         
     def to_html(self):
-        html = f"<{self.tag}>"
+        html = f"<{self.tag}{self.props_to_html()}>"
         close_tag = f"</{self.tag}>"
         for child in self.children:
             html += child.to_html()            
