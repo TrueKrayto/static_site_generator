@@ -88,6 +88,3 @@ def text_to_textnodes(text):
     return new_nodes
 
 
-sample = "This is **text** with an *italic* word and a `code block` and an ![image](https://storage.googleapis.com/qvault-webapp-dynamic-assets/course_assets/zjjcJKZ.png) and a [link](https://boot.dev)"
-
-text_to_textnodes(sample)

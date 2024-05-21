@@ -1,0 +1,30 @@
+# Heading 1
+
+## Heading 2
+
+> quote
+> fall is **autum** in europe
+
+### unordered list
+
+- dbz
+- chowder
+- python
+- brains
+- beans
+
+``` 
+print("hello World!") 
+```
+
+this is a simple paragraph in the middle of the text
+
+#### Ordered list
+
+1. DBZ
+2. Python
+3. Brains
+4. Beans
+5. Chowder
+
+closing paragraph thanks for reading
