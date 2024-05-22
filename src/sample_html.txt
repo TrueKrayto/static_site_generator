@@ -1,6 +1,8 @@
 # Heading 1
 
-## Heading 2
+## Stinky
+
+This girl is a stinkito
 
 > quote
 > fall is **autum** in europe
@@ -17,7 +19,10 @@
 print("hello World!") 
 ```
 
+![LOTR image artistmonkeys](/images/rivendell.png)
 this is a simple paragraph in the middle of the text
+
+Is this a [fattyboomda?](https://www.instagram.com/graciconrado/?hl=en)
 
 #### Ordered list
 

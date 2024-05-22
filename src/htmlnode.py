@@ -55,7 +55,7 @@ class LeafNode(HtmlNode):
             return f"<{self.tag}>{self.value}</{self.tag}>"
         else:
             props_html = self.props_to_html()
-            return f"<{self.tag}{props_html}>{self.value}</{self.tag}>"
+            return f"<{self.tag}{props_html}> {self.value} </{self.tag}>"
 
 
 class ParentNode(HtmlNode):

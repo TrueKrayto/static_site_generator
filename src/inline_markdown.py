@@ -69,7 +69,7 @@ def split_nodes_link(old_nodes):
         else:
             text = node.text
             for link in links:
-                sections = text.split(f"[{link[0]}]({link[1]})", 1)
+                sections = text.split(f" [{link[0]}]({link[1]})", 1)
                 if sections[0] != "":
                     new_nodes.append(TextNode(sections[0], text_type_text))
                 new_nodes.append(TextNode(link[0], text_type_link, link[1]))
